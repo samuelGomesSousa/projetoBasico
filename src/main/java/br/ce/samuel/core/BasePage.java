@@ -128,6 +128,7 @@ public class BasePage {
 		alert.sendKeys(valor);
 		alert.accept();
 	}	
+	
 				
 	// ************************ FRAMES E JANELAS ******************************
 	public void entrarFrame(String valor) {

@@ -20,7 +20,7 @@ public class BaseTest {
 	@Rule
 	public TestName testName = new TestName();	
 	
-	@Before //Executa sempre este metodo primeiro. Para executar método por método, habilitar esta função.
+	@Before //Executa sempre este metodo primeiro. Para executar mï¿½todo por mï¿½todo, habilitar esta funï¿½ï¿½o.
 	public void inicializa() {		
 		page.acessarTelaInicial();
 		page.setEmail("samuel@gmail.com");
@@ -28,7 +28,7 @@ public class BaseTest {
 		page.entrar();
 	}
 	 
-	 
+		 
 	@After
 	public void finaliza() throws IOException {		
 
