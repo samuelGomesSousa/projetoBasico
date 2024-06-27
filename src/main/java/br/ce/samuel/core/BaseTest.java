@@ -23,8 +23,8 @@ public class BaseTest {
 	@Before //Executa sempre este metodo primeiro. Para executar m�todo por m�todo, habilitar esta fun��o.
 	public void inicializa() {		
 		page.acessarTelaInicial();
-		page.setEmail("samuel@gmail.com");
-		page.setSenha("combatarms");
+		page.setEmail("samu@gmail.com");
+		page.setSenha("teste");
 		page.entrar();
 	}
 	 
